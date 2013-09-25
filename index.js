@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var portfinder = require("portfinder");
 
 portfinder.getPort(function(err, port){
