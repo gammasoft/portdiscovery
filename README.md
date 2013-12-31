@@ -9,7 +9,11 @@ npm install -g portdiscovery
 
 #### Usage
 
-Simply run `portdiscovery`. 
+Simply run `portdiscovery` and it will look for open ports starting in 8000. 
+
+You can specify a base port as well: `portdiscovery 8010`
+
+#### Cool tip
 
 You can assign to a bash variable then use it to deploy your apps, for example:
 
