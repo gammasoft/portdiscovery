@@ -11,7 +11,7 @@ npm install -g portdiscovery
 
 Simply run `portdiscovery` and it will look for open ports starting in 8000. 
 
-You can specify a base port as well: `portdiscovery 8010`
+You can specify a base port if `8000` doesn't fit your needs: `portdiscovery 8010`
 
 #### Cool tip
 

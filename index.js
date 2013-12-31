@@ -3,7 +3,7 @@ var portfinder = require("portfinder");
 
 var basePort = process.argv[2] || 8000;
 
-portfinder.basePort = basePort;
+portfinder.basePort = parseInt(basePort, 10);
 
 portfinder.getPort(function(err, port){
 	if(err) process.stderr.write(err.toString());
